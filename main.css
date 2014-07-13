@@ -1,0 +1,21 @@
+h1 {
+  color: rgb(200,200,200);
+  font-family: "verdana", arial, sans-serif;
+}
+h2 {
+  font-family: "verdana", arial, sans-serif;
+  color: rgb(200,200,200);
+}
+img {
+  width: 600px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(50,50,50);
+  }
+  body {
+    background-color: rgb(34,34,34);
+  }
+a {
+  font-family: "arial";
+  color: rgb(255,255,255);
+}
