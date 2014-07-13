@@ -18,11 +18,13 @@ img {
   border-style: solid;
   border-color: rgb(50,50,50);
   }
-  body {
-    background-color: rgb(34,34,34);
-    background-image: url("https://cloud.githubusercontent.com/assets/8130577/3563942/5a9d7a1a-0a60-11e4-8d2c-e442d3f6e2bd.jpg");
-    background-repeat: no-repeat;
-  }
+ html { 
+  background: url("https://cloud.githubusercontent.com/assets/8130577/3563942/5a9d7a1a-0a60-11e4-8d2c-e442d3f6e2bd.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 a {
   font-family: "arial";
   color: rgb(255,255,255);
