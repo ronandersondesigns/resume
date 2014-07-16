@@ -34,8 +34,7 @@ a {
 }
 p {
   color: rgb(200,200,200);
-  width: 200px;
-line-height: .5;
+  width: 600px;
 }
 
 a:link {
