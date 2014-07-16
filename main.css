@@ -1,22 +1,25 @@
 h1 {
   color: rgb(200,200,200);
-  font-family: "verdana", arial, sans-serif;
+  font-family: 'Shadows Into Light';
+  font-size: 250%;
+  
 }
+
 h2 {
-  font-family: "verdana", arial, sans-serif;
-  color: rgb(255,255,255);
+  color: rgb(200,200,200);
+  font-family: 'Droid Sans', sans-serif;
 }
+
 h3 {
-  color: rgb(255,255,255);
+  color: rgb(240,240,240);
+   font-family: 'Droid Sans', sans-serif;
 }
+
 h4 {
   color: rgb(255,255,255);
 }
 img {
   width: 600px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(50,50,50);
   }
  html { 
   background: url("https://cloud.githubusercontent.com/assets/8130577/3563942/5a9d7a1a-0a60-11e4-8d2c-e442d3f6e2bd.jpg") no-repeat center center fixed; 
@@ -26,10 +29,31 @@ img {
   background-size: cover;
 }
 a {
-  font-family: "arial";
-  color: rgb(255,255,255);
+  font-family: 'Droid Sans', sans-serif;
+  color: rgb(240,240,240);
 }
 p {
   color: rgb(200,200,200);
-  width: 600px;
+  width: 200px;
+line-height: .5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 25px; 
 }
