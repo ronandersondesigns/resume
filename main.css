@@ -56,8 +56,8 @@ p {
   color: rgb(200,200,200);
   width: 600px;
 
-    margin-right: center;
-    margin-left: center;
+    margin-right: cover;
+    margin-left: cover;
 }
  
 }
