@@ -26,7 +26,7 @@ h4 {
   color: rgb(255,255,255);
 }
 
-body {
+body{
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
@@ -72,6 +72,11 @@ body {
 	margin-top: 28px;
 	padding-right: 0px;
 	padding-left: 200px;
+}
+
+.text{
+	
+	
 }
 
 a {
