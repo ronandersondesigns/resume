@@ -1,56 +1,17 @@
-h1 {
-  color: rgb(172,208,239);
-  font-family: 'Arial';
-  font-size: 250%;
-  
-}
-
-   ul {
-    list-style-type: none;
-}
-
-
-
-
-h2 {
-  color: rgb(255,255,255);
-  font-family: 'Arial', sans-serif;
- }
-
-h3 {
-  color: rgb(228,216,198);
-   font-family: 'Droid Sans', sans-serif;
-}
-
-h4 {
-  color: rgb(255,255,255);
-}
-
 body{
 	background-repeat: no-repeat;
 	background-position: center 0;
-	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-	background-attachment: fixed;
+	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
+    background-size: 750px, 1500px,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
 	top: auto;
 	bottom: auto;
-	float: none;
 	border-width: 0px;
 	height: auto;
 }
-.container{
-	margin-top: -10px;
-	margin-left: 0px;
-	margin-bottom: -10px;
-	min-height: 0;
-	height: cover;
-}
-
 .content{
 	margin-top: 82px;
 	margin-bottom: -10px;
@@ -58,69 +19,118 @@ body{
 	margin-left: 0px;
 }
 .logo{
-	margin-top: -1440px;
-	margin-bottom: -10px;
-	margin-right: 0px;
-	margin-left: -210px;
-	padding-top: 0px;
+    position: static;
+    max-width: 745px;
+    margin: 0 auto;    
+    width:100%;
+    
+    max-width: 660px;
+    
+   
 }
 .buttons{
-	margin-top: 41px;
-	
+    position: static;
+    max-width: 745px;
+    margin: 0 auto;
 }
-.images{
-	margin-top: 28px;
-	padding-right: 0px;
-	padding-left: 200px;
-}
-
 .text{
-	
-	
+    position: static;
+    max-width: 660px;
+    margin: 0 auto;
+	font-family: 'roboto', sans-serif;
+	color: rgba(73,73,73,1.00);	
+    
+}
+.col-title{
+    color: rgba(71, 91, 130,1.00);	
+    display: inline-block;
+    font-size: 12pt;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 40px;
+}
+.col-RC{
+    display: inline-block;
+    font-size: 11pt;
+    text-align: left;
+    width: 300px;
+    min-height: 220px;
+    float: left;
+}
+.col-freelance{
+    display: inline-block;
+    text-align: left;
+    font-size: 11pt;
+    width:300px;
+    min-height: 120px;
+    float: left;
+}
+.col-gutter{
+    display: inline-block;
+    text-align: left;
+    font-size: 11pt;
+    width:39px;
+    min-height: 120px;
+    float: left;
 }
 
+.col-center{
+    display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 10px;
+}
+.col-sony{
+    display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
+.col-edu{
+    display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
 a {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: rgba(73,73,73,1.00);
 	letter-spacing: 5px;
 	word-spacing: 77px;
 	cursor: pointer; cursor: hand;
 }
 p {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: rgba(73,73,73,1.00);
 }
-
 a:link {
-text-decoration: none;
-letter-spacing: 5px;
-	word-spacing: 77px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 77px;
 }
-
 a:visited {
-letter-spacing: 5px;
+     text-align: center;
+    letter-spacing: 5px;
 	word-spacing: 77px;
 }
-
 a:hover {
-	
+	 text-align: center;
 	color: #717A92;
 	letter-spacing: 5px;
 	word-spacing: 77px;
 }
-
 a:active {
+     text-align: center;
 	text-decoration: none;
 	letter-spacing: 5px;
 	word-spacing: 77px;
-	padding-right: 0px;
-	top: auto;
-	margin-top: auto;
 	padding-left: 0px;
-}
-
-h1, h2, h3, h4, h5, h6{
-  line-height: 25px; 
-}
-.content center img {
 }
