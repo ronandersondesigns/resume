@@ -1,7 +1,7 @@
 body{
 	background-repeat: no-repeat;
 	background-position: center 0;
-	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
+	background-image: url(""),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
     background-size: 750px, 1500px,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
