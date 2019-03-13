@@ -18,7 +18,7 @@ body{
 	margin-right: 0px;
 	margin-left: 0px;
 }
-col-TopMargin{
+.col-TopMargin{
     display: inline-block;
     text-align: center;
     width:100%;
