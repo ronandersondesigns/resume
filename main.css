@@ -18,6 +18,13 @@ body{
 	margin-right: 0px;
 	margin-left: 0px;
 }
+col-TopMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 50px;
+}
 .logo{
     position: static;
     max-width: 745px;
