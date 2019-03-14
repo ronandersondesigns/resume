@@ -23,8 +23,17 @@ body{
     text-align: center;
     width:100%;
     float: center;
-    min-height: 50px;
+    min-height: 60px;
 }
+.col-LowMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
+
+
 .logo{
     position: static;
     max-width: 745px;
