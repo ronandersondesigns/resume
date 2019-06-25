@@ -1,8 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
-	background-repeat: no-repeat;
+	background-repeat : no-repeat;
 	background-position: center 0;
 	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-    background-size: 750px, 1500px,
+    background-size: cover,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	margin-left: auto;
@@ -51,7 +58,7 @@ body{
 }
 .text{
     position: static;
-    max-width: 660px;
+    max-width: 700px;
     margin: 0 auto;
 	font-family: 'roboto', sans-serif;
 	color: rgba(73,73,73,1.00);	
@@ -64,40 +71,34 @@ body{
     text-align: center;
     width:100%;
     float: center;
-    min-height: 40px;
+    min-height: 20px;
+    padding: 6px;
 }
 .col-RC{
     display: inline-block;
     font-size: 11pt;
     text-align: left;
-    width: 300px;
-    min-height: 220px;
+    width: 50%;
     float: left;
+    padding: 6px;
+    min-height: 252px;
 }
 .col-freelance{
     display: inline-block;
     text-align: left;
     font-size: 11pt;
-    width:300px;
-    min-height: 120px;
+    width:50%;
+    min-height: 112px;
     float: left;
+    padding: 6px;
 }
-.col-gutter{
-    display: inline-block;
-    text-align: left;
-    font-size: 11pt;
-    width:39px;
-    min-height: 120px;
-    float: left;
-}
-
 .col-center{
     display: inline-block;
     text-align: center;
     font-size: 11pt;
     width:100%;
     float: center;
-    min-height: 10px;
+    padding: 6px;
 }
 .col-sony{
     display: inline-block;
@@ -105,7 +106,8 @@ body{
     font-size: 11pt;
     width:100%;
     float: center;
-    min-height: 30px;
+    min-height: 40px;
+    padding: 6px;
 }
 .col-edu{
     display: inline-block;
