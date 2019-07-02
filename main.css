@@ -5,20 +5,23 @@ html {
   box-sizing: inherit;
 }
 
-body{
-	background-repeat : no-repeat;
+body {
+	background-repeat: no-repeat;
 	background-position: center 0;
-	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-    background-size: cover,
+	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
 	top: auto;
 	bottom: auto;
-	border-width: 0px;
-	height: auto;
+	float: none;
+	height: 1000px;
 }
+
 .content{
 	margin-top: 82px;
 	margin-bottom: -10px;
