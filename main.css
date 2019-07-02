@@ -39,17 +39,21 @@ body{
     float: center;
     min-height: 30px;
 }
-
+.backgroundImage{
+	margin-top: -10px;
+	margin-left: 0px;
+	margin-bottom: -10px;
+	min-height: 0;
+	height: cover;
+}
 
 .logo{
-    position: static;
-    max-width: 745px;
-    margin: 0 auto;    
-    width:100%;
-    
-    max-width: 500px;
-    
-   
+	margin-top: -1700px;
+	margin-bottom: -10px;
+    	margin-right: 270px;
+	margin-left: 0px;
+	padding-top: 0px;
+
 }
 .buttons{
     position: static;
