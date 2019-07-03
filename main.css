@@ -1,17 +1,11 @@
 h1 {
   color: rgb(172,208,239);
   font-family: 'Arial';
-  font-size: 250%;
-  
+  font-size: 250%; 
 }
-
    ul {
     list-style-type: none;
 }
-
-
-
-
 h2 {
   color: rgb(255,255,255);
   font-family: 'Arial', sans-serif;
@@ -19,7 +13,7 @@ h2 {
 
 h3 {
   color: rgb(228,216,198);
-   font-family: 'Droid Sans', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 h4 {
@@ -40,10 +34,8 @@ body {
 	top: auto;
 	bottom: auto;
 	float: none;
-	border-width: 0px;
 	height: 1000px;
 }
-
 .backgroundImage{
 	margin-top: -10px;
 	margin-left: 0px;
@@ -51,41 +43,31 @@ body {
 	min-height: 0;
 	height: cover;
 }
-.content{
-	margin-top: 82px;
-	margin-bottom: -10px;
-	margin-right: 0px;
-	margin-left: 0px;
-}
-.col-TopMargin{
-    display: inline-block;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 60px;
-}
-.col-LowMargin{
-    display: inline-block;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 30px;
-}
 
 .logo{
 	margin-top: -1700px;
 	margin-bottom: -10px;
-    	margin-right: 270px;
+    margin-right: 270px;
 	margin-left: 0px;
 	padding-top: 0px;
 
 }
+.images{
+    
+	margin-top: 25px;
+	margin-bottom: 100px;
+    margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+    width: 600px;
+    
+}
+
+
 .buttons{
 	margin-top: 41px;
 	
 }
-
-
 a {
 	font-family: 'Droid Sans', sans-serif;
 	color: rgba(73,73,73,1.00);
@@ -126,65 +108,4 @@ h1, h2, h3, h4, h5, h6{
   line-height: 25px; 
 }
 .content center img {
-}
-.text{
-    position: static;
-    max-width: 700px;
-    margin: 0 auto;
-	font-family: 'roboto', sans-serif;
-	color: rgba(73,73,73,1.00);	
-    
-}
-.col-title{
-    color: rgba(71, 91, 130,1.00);	
-    display: inline-block;
-    font-size: 12pt;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 20px;
-    padding: 6px;
-}
-.col-RC{
-    display: inline-block;
-    font-size: 11pt;
-    text-align: left;
-    width: 50%;
-    float: left;
-    padding: 6px;
-    min-height: 252px;
-}
-.col-freelance{
-    display: inline-block;
-    text-align: left;
-    font-size: 11pt;
-    width:50%;
-    min-height: 112px;
-    float: left;
-    padding: 6px;
-}
-.col-center{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    padding: 6px;
-}
-.col-sony{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    min-height: 40px;
-    padding: 6px;
-}
-.col-edu{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    min-height: 30px;
 }
