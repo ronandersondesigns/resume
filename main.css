@@ -1,111 +1,86 @@
-h1 {
-  color: rgb(172,208,239);
-  font-family: 'Arial';
-  font-size: 250%; 
+html {
+  box-sizing: border-box;
 }
-   ul {
-    list-style-type: none;
-}
-h2 {
-  color: rgb(255,255,255);
-  font-family: 'Arial', sans-serif;
- }
-
-h3 {
-  color: rgb(228,216,198);
-    font-family: 'Droid Sans', sans-serif;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-h4 {
-  color: rgb(255,255,255);
-}
-
-body {
+body{
 	background-repeat: no-repeat;
+	background-repeat : no-repeat;
 	background-position: center 0;
-	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-	background-attachment: fixed;
+	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
+    background-size: 750px, 1500px,
+    background-size: cover,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	margin-left: auto;
-	margin-right: auto;
-	top: auto;
-	bottom: auto;
-	float: none;
-	height: 1000px;
+@@ -51,7 +58,7 @@ body{
 }
-.backgroundImage{
-	margin-top: -10px;
-	margin-left: 0px;
-	margin-bottom: -10px;
-	min-height: 0;
-	height: cover;
+.text{
+    position: static;
+    max-width: 660px;
+    max-width: 700px;
+    margin: 0 auto;
+	font-family: 'roboto', sans-serif;
+	color: rgba(73,73,73,1.00);	
+@@ -64,48 +71,43 @@ body{
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 40px;
+    min-height: 20px;
+    padding: 6px;
 }
-
-.logo{
-	margin-top: -1700px;
-	margin-bottom: -10px;
-    margin-right: 270px;
-	margin-left: 0px;
-	padding-top: 0px;
-
+.col-RC{
+    display: inline-block;
+    font-size: 11pt;
+    text-align: left;
+    width: 300px;
+    min-height: 220px;
+    width: 50%;
+    float: left;
+    padding: 6px;
+    min-height: 252px;
 }
-.images{
-    
-	margin-top: 25px;
-	margin-bottom: 100px;
-    margin-right: auto;
-	margin-left: auto;
-	padding-top: 25px;
-    width: 600px;
-    
+.col-freelance{
+    display: inline-block;
+    text-align: left;
+    font-size: 11pt;
+    width:300px;
+    min-height: 120px;
+    float: left;
 }
-
-
-.buttons{
-	margin-top: 41px;
-	
-}
-a {
-	font-family: 'Droid Sans', sans-serif;
-	color: rgba(73,73,73,1.00);
-	letter-spacing: 5px;
-	word-spacing: 77px;
-	cursor: pointer; cursor: hand;
-}
-p {
-	font-family: 'Droid Sans', sans-serif;
-	color: rgba(73,73,73,1.00);
+.col-gutter{
+    display: inline-block;
+    text-align: left;
+    font-size: 11pt;
+    width:39px;
+    min-height: 120px;
+    width:50%;
+    min-height: 112px;
+    float: left;
+    padding: 6px;
 }
 
-a:link {
-text-decoration: none;
-letter-spacing: 5px;
-	word-spacing: 77px;
+.col-center{
+    display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 10px;
+    padding: 6px;
 }
-
-a:visited {
-letter-spacing: 5px;
-	word-spacing: 77px;
+.col-sony{
+    display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 30px;
+    min-height: 40px;
+    padding: 6px;
 }
-
-a:hover {
-	
-	color: #717A92;
-	letter-spacing: 5px;
-	word-spacing: 77px;
-}
-
-a:active {
-	text-decoration: none;
-letter-spacing: 5px;
-	word-spacing: 77px;
-}
-
-h1, h2, h3, h4, h5, h6{
-  line-height: 25px; 
-}
-.content center img {
-}
+.col-edu{
+    display: inline-block;
