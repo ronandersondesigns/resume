@@ -15,7 +15,46 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	margin-left: auto;
-@@ -51,7 +58,7 @@ body{
+	margin-right: auto;
+	top: auto;
+	bottom: auto;
+	border-width: 0px;
+	height: auto;
+}
+.content{
+	margin-top: 82px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.col-TopMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 60px;
+}
+.col-LowMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
+.logo{
+    position: static;
+    max-width: 745px;
+    margin: 0 auto;    
+    width:100%;
+    
+    max-width: 500px;
+    
+   
+}
+.buttons{
+    position: static;
+    max-width: 745px;
+    margin: 0 auto;
 }
 .text{
     position: static;
@@ -24,7 +63,12 @@ body{
     margin: 0 auto;
 	font-family: 'roboto', sans-serif;
 	color: rgba(73,73,73,1.00);	
-@@ -64,48 +71,43 @@ body{
+    
+}
+.col-title{
+    color: rgba(71, 91, 130,1.00);	
+    display: inline-block;
+    font-size: 12pt;
     text-align: center;
     width:100%;
     float: center;
@@ -84,3 +128,44 @@ body{
 }
 .col-edu{
     display: inline-block;
+    text-align: center;
+    font-size: 11pt;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(73,73,73,1.00);
+	letter-spacing: 5px;
+	word-spacing: 77px;
+	cursor: pointer; cursor: hand;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(73,73,73,1.00);
+}
+a:link {
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 77px;
+}
+a:visited {
+     text-align: center;
+    letter-spacing: 5px;
+	word-spacing: 77px;
+}
+a:hover {
+	 text-align: center;
+	color: #717A92;
+	letter-spacing: 5px;
+	word-spacing: 77px;
+}
+a:active {
+     text-align: center;
+	text-decoration: none;
+	letter-spacing: 5px;
+	word-spacing: 77px;
+	padding-left: 0px;
+}
