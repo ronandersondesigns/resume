@@ -89,7 +89,7 @@ body{
     display: inline-block;
     text-align: left;
     font-size: 11pt;
-    width:300px;
+    width: 50%;
     min-height: 100px;
     float: left;
 }
