@@ -10,7 +10,7 @@ body{
 	background-repeat : no-repeat;
 	background-position: center 0;
 	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/middlebackground.jpg"),url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-    background-size: 100%, 1500px,
+    background-size: 100%,
     background-size: cover,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
